@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "dev": "nodemon main.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.569.0",
+    "nodemon": "^3.1.0",
+    "s3": "^4.4.0"
+  }
+}
